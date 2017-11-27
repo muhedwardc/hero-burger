@@ -1,0 +1,169 @@
+/* Big tablet to 1200px */
+@media only screen and (max-width: 1200px) {
+    .hero-text-box {
+        width: 100%;
+        padding: 0 2%;
+    }
+    
+    .row { padding: 0 2%; }
+    
+    .icon-small { 
+        width: 20px; 
+        margin-right: 10px;
+    }
+    .location-feature { font-size: 90%; }
+}
+
+/* Small tablet to Big tablet 768 - 1023px */
+@media only screen and (max-width: 1023px) {
+    body { font-size: 18px; }
+    section { padding: 60px 0; }
+    
+    .long-copy {
+        width: 80%;
+        margin-left: 10%;
+    }
+    
+    .steps-box { margin-top: 10px; }
+    .steps-box { margin-bottom: 10px; }
+    .hero-step { margin-bottom: 40px; }
+    .hero-step:last-child { margin-bottom: 60px; }    
+    
+    .phone-screen { width: 50%; }
+    
+    .icon-small { 
+        width: 17px; 
+        margin-right: 10px;
+    }
+    .location-feature { font-size: 90%; }
+    
+    .bestprice-box {
+        width: 100%;
+        margin-left: 0;
+    }
+    
+    .price { font-size: 250%; }
+    .bestprice-box ul li { font-size: 97%; }
+    
+    .contact-form { width: 90%; }
+}
+
+/* Small phone to Small tablet 481 - 767px */
+@media only screen and (max-width: 767px) {
+    body { font-size: 16px; }
+    section { padding: 30px 0; }
+    
+    .row, 
+    .hero-text-box { padding: 0 4%; }
+    .col { width: 100%; display: block;}
+
+    .nav {
+        background-color: rgba(0, 0, 0, 0.76);
+    }
+    
+    .mobile-nav-icon { display: inline-block; }
+    .main-nav {
+        display: inline-block;
+        float: right;
+        margin: 10px 50px 0 0;
+    }
+    
+    .main-nav li {
+        display: block;
+    }
+    
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        border: none
+    }
+    
+    .main-nav { display: none; } 
+    
+    /* Sticky nav */
+    .sticky {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+        -webkit-box-shadow: 0 2px 2px #efefef;
+        box-shadow: 0 2px 2px #efefef;
+        z-index: 9999;
+    }
+
+    .sticky .main-nav { margin-top: 10px; }
+
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited {
+        padding: 10px 0;
+    }
+    
+    .sticky .mobile-nav-icon i{ 
+        color: #555; 
+    }
+    
+    h1 { font-size: 180%; }
+    h2 { font-size: 150%; }
+    
+    .long-copy {
+        width: 100%;
+        margin-left: 0%;
+    }
+    
+    .phone-screen { width: 40%; }
+    
+    .hero-step { margin-bottom: 20px; }
+    .hero-step:last-child { margin-bottom: 20px; }
+    
+    .steps-box:first-child {
+        text-align: center;
+    }
+    
+    .hero-step div {      
+        height: 40px;
+        width: 40px;
+        margin-right: 15px;
+        padding: 4px;
+        line-height: 30px;
+        font-size: 120%;
+    }
+    
+    .location-feature { font-size: 120%; }
+    
+    .price { font-size: 300%; }
+    .col { margin: 0 0 4% 0; }
+    .bestprice-box ul li { font-size: 120%; }
+    
+    .map-box {
+        width: 100%;
+        height: auto;
+        position: relative;
+        padding: 0;
+    }
+
+    .map {
+        width: 100%;
+        height: 200px;
+        position: relative;
+        z-index: 0;
+    }
+
+    .form-box {
+        position: relative;
+        height: auto;
+        width: 100%;
+        padding: 30px 0;
+    }
+}
+
+
+/* Small phone 0 - 480px */
+@media only screen and (max-width: 480px) {
+    section { padding: 25px 0; }
+    .meals-showcase li {
+        width: 50%;
+        display: inline-block;
+    }
+    .contact-form { width: 100%; }
+}
